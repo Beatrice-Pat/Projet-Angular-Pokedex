@@ -1,0 +1,15 @@
+<!--#input = déclare les variables dans le templates
+keyup = pousse la valeur quand l'utilsateur tape quelque chose dans le champs (.enter = uniquement quand l'utilisateur validera)
+(input.value)= récupère la chaîne de caractère avec l'index saisi par l'utilisateur -->
+<!--Affiche le contenu tapé par l'utilisateur = *ngIf="pokemonSelected"-->
+<nav>
+    <div class="nav-wrapper teal">
+        <a [routerLink]="['/pokemons']" href="a" class="brand-logo center" > <!--(click)="backToHome()"-->
+            Pokédex
+        </a>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+
